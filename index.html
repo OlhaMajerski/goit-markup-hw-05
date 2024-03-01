@@ -52,6 +52,7 @@
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="btn">Order Service</button>
         </div>
+       
       </section>
       <section class="about section">
         <div class="container">
@@ -437,7 +438,58 @@
 </li>
         </ul>
       </div>
+      <div class="subscription-wrapper">
+        <p class="subscription-text">Subscribe</p>
+        <form class="subscription-form" name="subscription">
+          <label class="subscription-label">
+            <input
+              class="subscription-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button class="subscribe-btn" type="submit">
+            Subscribe
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-subs"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
     </footer>
+
+
+
+
+    <div class="backdrop">
+      <button class="close-btn">
+        <svg class="icon-close" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <form class="form" name="form">
+      <label class="form-label">Name 
+        <input class="form-input" type="text" name="name">
+      </label>
+      <label class="form-label">Phone
+        <input class="form-input" type="tel" name="phone">
+      </label>
+      <label class="form-label">Email
+        <input class="form-input" type="email" name="email">
+      </label>
+      <label class="form-label">Comment
+        <textarea class="form-textarea" name="comment" rows="10" placeholder="Text input"></textarea>
+      </label>
+      <label>
+        <input type="checkbox">I accept the terms and conditions of the Privacy Policy
+      </label>
+      <button class="form-button" type="submit">Send</button>
+    </form>
+    </div>
+
+    
+
   </body>
 </html>
