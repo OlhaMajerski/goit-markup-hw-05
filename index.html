@@ -505,9 +505,13 @@
           <textarea type="text" class="form-input-comment" name="comment" id="comment" placeholder="Text input"></textarea>
         </div>
         <div class="form-checkbox-wrapper">
-          <input type="checkbox" class="form-checkbox-privacy" name="privacy-checkbox" id="privacy-checkbox" value="true" required>
+          <input type="checkbox" class="form-checkbox-privacy visually-hidden" name="privacy-checkbox" id="privacy-checkbox" value="true" required>
           <label for="privacy-checkbox" class="form-checkbox-label">
-            <span class="form-own-checkbox"></span>
+            <span class="form-own-checkbox">
+              <svg class="form-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+            </span>
             I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
           </label>
         </div>
