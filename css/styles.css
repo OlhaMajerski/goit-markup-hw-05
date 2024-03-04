@@ -675,9 +675,7 @@ outline: transparent;
     fill: #f4f4fd;
     border: none;
   }
-  .form-checkbox-privacy:focus + .form-checkbox-label .form-own-checkbox {
-    border: 1px solid #4d5ae5;
-  }
+
   .form-button {
   display: block;
   margin: 0 auto;
